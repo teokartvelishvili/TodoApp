@@ -1,0 +1,41 @@
+
+.box {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}header {
+    display: flex;
+    justify-content: center;
+}.pages {
+    display: flex;
+    justify-content: center;
+    gap: 80px;    
+}.pages > a {
+    color: black;
+    text-decoration-line: none;
+    border-bottom: 1px solid grey;
+}.todo-form{
+    display: flex;
+    justify-content: center;
+}.todo-form > input {
+    margin: 10px;
+    border: 0.5px solid #949494;
+    border-radius: 8px;
+    width: 400px;
+    padding: 10px;
+}.todo-form > button {
+    margin: 10px;
+    width: 70px;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(110, 117, 245); 
+    border: none;
+}.todo-form > button:hover{
+    box-shadow: 2px 2px 2px  gray;
+}.todo-items {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    
+}
